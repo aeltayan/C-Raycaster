@@ -1,0 +1,106 @@
+# Ignore SDL2 include files
+include/SDL2/
+include/SDL2/**
+
+# Ignore SDL2 library files
+lib/SDL2/
+lib/SDL2/**
+
+# Ignore SDL2 binary files (DLLs, SOs, etc.)
+bin/SDL2/
+bin/SDL2/**
+*.dll
+*.so
+*.dylib
+
+# Ignore SDL2 debug and intermediate files
+*.pdb
+*.ilk
+*.obj
+*.o
+*.a
+*.lib
+
+# Ignore SDL2 source or build artifacts
+SDL2/
+SDL2/**
+
+# Ignore system-installed SDL2 files (if accidentally added)
+usr/include/SDL2/
+# Ignore SDL2 lib directory
+lib/
+
+
+# Ignore SDL2 generated files during CMake builds
+cmake-build-debug/
+cmake-build-release/
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
